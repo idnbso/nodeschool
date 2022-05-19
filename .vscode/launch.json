@@ -11,8 +11,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\learnyounode\\http-client.js",
-            "args": ["P:\\nodeschool\\learnyounode", "js"],
+            "program": "${workspaceFolder}\\learnyoumongo\\insert.js",
+            "args": ["Idan", "Busso"],
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
