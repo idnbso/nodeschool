@@ -21,7 +21,8 @@ const requestListener = (req, res) => {
         }));
     }
 
-    res.end(404);
+    res.writeHead(404);
+    res.end();
 }
 
 const server = http.createServer(requestListener);
